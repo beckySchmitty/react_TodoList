@@ -8,11 +8,14 @@ const TodoList = () => {
     const [todos, setTodos] = useState([{id: uuidv4(), task: "laundry"}])
 
     const addTodo = newTodo => {
-        setTodos([...todos, newTodo])
+        setTodos(todos => [
+            ...todos,
+             {...newTodo, id: uuidv4()}
+    ])
     }
 
     const handleRemove = (id) => {
-        setTodos([todos.filter(todo => todo.id !== id)])
+        setTodos(todos => todos.filter(todo => todo.id !== id))
     }
 
     return (
