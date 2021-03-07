@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <button>
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot 2`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <form>
+        <label
+          for="task"
+        >
+          Task
+        </label>
+        <input
+          id="task"
+          name="task"
+          value=""
+        />
+        <button>
+          Add
+        </button>
+      </form>
+    </div>
+    <div>
+      <div
+        id="82b77eea-5b4c-4a4a-aa48-c51e10047b9d"
+      >
+        laundry
+        <button>
+          X
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot 3`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div>
+      <div>
+        <form>
+          <label
+            for="task"
+          >
+            Task
+          </label>
+          <input
+            id="task"
+            name="task"
+            value=""
+          />
+          <button>
+            Add
+          </button>
+        </form>
+      </div>
+      <div>
+        <div
+          id="93049a44-af88-463e-bccf-ab3b683601fa"
+        >
+          laundry
+          <button>
+            X
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
